@@ -1,0 +1,23 @@
+3 Categorys of projects
+Life tools
+Freelance and Client tools
+game tools + plugins/mods
+
+
+some basic ideas for products:
+
+nvoicing system
+
+Contract generator or e-signature app
+
+Portfolio CMS for creators
+
+Custom dashboards or landing page templates
+
+Budget planner
+
+Simple task/goal tracker
+
+Browser extensions
+
+Time tracking or Pomodoro app
