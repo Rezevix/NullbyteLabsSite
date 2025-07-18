@@ -136,7 +136,7 @@ main {
   align-items: center;
   justify-content: center;
   font-size: 1em;
-  font-family: "PixelFont", sans-serif;
+  font-family: "PixelFont", sans-serif; 
   font-weight: bold;
   box-shadow: 0 0 12px #49ff86;
 }
@@ -168,6 +168,11 @@ main {
   transform: translate(-50%, -50%);
 }
 .lang:nth-child(6) {
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+.lang:nth-child(7) {
   top: 50%;
   left: 0%;
   transform: translate(-50%, -50%);
