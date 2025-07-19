@@ -9,7 +9,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 body {
@@ -20,13 +20,17 @@ body {
   );
   min-height: 100vh;
   font-family: "PixelFont", sans-serif;
-  color: white;
-}
+  color: white;}
 
-main {
-  background-color: #000;
-}
 
+header {
+margin:0;
+padding: 0;
+}
+main{
+  background: black;
+
+}
 .navbar {
   padding: 1em 0;
   font-family: "PixelFont", sans-serif;
@@ -188,56 +192,9 @@ main {
 }
 
 #title2 {
-  margin-top: 1em;
   font-size: 5em;
+  font-weight: bold;
   text-align: center;
-
-  color: #49ff86;
-}
-
-.cards-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 6em;
-  margin: 3em auto;
-  padding: 2em;
-}
-
-.profile-card {
-  background-color: #000000;
-  border: 2px solid #49ff86;
-  border-radius: 20px;
-  width: 280px;
-  padding: 4em 1.5em;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 0 10px #49ff86;
-}
-
-.profile-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 0 20px #49ff86;
-}
-
-.profile-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-
-  margin-bottom: 1em;
-}
-
-.profile-card h4 {
-  font-size: 1.5em;
-  color: #49ff86;
-  margin-bottom: 0.5em;
-  font-family: "PixelFont", sans-serif;
-}
-
-.profile-card p {
-  font-size: 1em;
-  color: #ffffff;
-  line-height: 1.5em;
+color: #49ff86;
+padding-top: 1em;
 }
